@@ -1,3 +1,7 @@
 * {
     font-family: 'Nunito Sans', sans-serif;
 }
+
+div.collapse navbar-collapse {
+    text-align: right; 
+}
