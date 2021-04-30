@@ -2,6 +2,6 @@
     font-family: 'Nunito Sans', sans-serif;
 }
 
-div.collapse navbar-collapse {
+div.container-fluid {
     text-align: right; 
 }
