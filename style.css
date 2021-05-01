@@ -14,6 +14,7 @@ div.navbar-nav {
     right: 10px;
 }
 
+
 div {
 color: rgb(247, 251, 255);
 }
@@ -43,10 +44,50 @@ h1 {
 }
 
 
+h2 {
+  text-align: center;
+}
+
+
+.anchor {
+  padding-top: 90px;
+}
+
+
 #about {
   position: relative;
   top: 50px;
-  //margin-top: 100px;
-  background: rgb(59, 74, 171);
-
+  background: rgb(55, 49, 139);
 }
+
+
+#about h2 {
+  margin-top: 25px;
+}
+
+
+p {
+font-size: 18px;
+text-align: justify;
+}
+
+
+#bio {
+margin-left: 20px;
+}
+
+
+#skills {
+  margin-top: 3px;
+  margin-left: 60px;
+}
+
+#portfolio h2, #portfolio p {
+ color: black; 
+}
+
+#portfolio h3 {
+  color: black;
+  text-align: center;
+}
+
