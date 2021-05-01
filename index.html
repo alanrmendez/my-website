@@ -25,7 +25,7 @@
     <div class="container-fluid">
 
         <!--Navbar-->
-        <nav class="navbar sticky-top navbar-dark bg-dark navbar-expand-sm" role="navigation">
+        <nav class="navbar fixed-top navbar-dark bg-dark navbar-expand-sm" role="navigation">
             <div class="container-fluid">
                 <a class="navbar-brand"  href="#">Alan Mendez</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
@@ -34,7 +34,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarContent">
                     <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="#">ABOUT</a>
+                        <a class="nav-link" aria-current="page" href="#">ABOUT</a>
                         <a class="nav-link" href="#">PORTFOLIO</a>
                         <a class="nav-link" href="#">CONTACT</a>
                     </div>
@@ -45,23 +45,24 @@
 
 
         <!--headshot with background-->
-        <div class="row">
+        <div class="row bg-secondary bg-gradient" id="home">
             <div class="col">
                 <div class="text-center">
                     <img src="https://alanrmendez.github.io/website/img/AlanMendezHeadshot.jpg"
-                        class="img-fluid" alt="Alan Mendez headshot">
+                        class="rounded-circle" alt="Alan Mendez headshot">
                     <!--headshot-->
                     <h1>Alan Mendez</h1>
+                    <h2>Software Engineer | Data Scientist</h2>
                 </div>
             </div>
         </div>
 
 
         <!--ABOUT-->
-        <div class="row">
+        <div class="row" id="about">
             <img src="#" class="img-fluid" alt="Alan hanging out">
             <!--background image-->
-            <div class="col">
+            <div class="col" >
 
                 <p>
                     Text about me. Bio and info about being a software engineer. Paragraph about being a data scientist.
