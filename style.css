@@ -96,22 +96,24 @@ margin-left: 20px;
 
 #portfolio {
 padding-right: 20px;
+background: rgb(247, 251, 255);
+
 }
 
 
 #portfolio h2, #portfolio h4, #portfolio p {
- color: black; 
+ color:#212529; 
 }
 
 
 #portfolio h3 {
-  color: black;
+  color:#212529; 
   text-align: center;
 }
 
 
 #portfolio h5 {
-  color: black;
+  color:#212529; 
   font-weight: bolder;
 }
 
