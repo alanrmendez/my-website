@@ -49,21 +49,33 @@ h2 {
 }
 
 
+h3 {
+  font-weight: 700;
+}
+
+
+h4 {
+  text-decoration: underline;
+}
+
+
 .anchor {
+  position: relative;
   padding-top: 90px;
+  top: 50px;
+}
+
+.anchor h2 {
+  margin-top: 25px;
 }
 
 
 #about {
-  position: relative;
-  top: 50px;
+  //position: relative;
+  //top: 50px;
   background: rgb(55, 49, 139);
 }
 
-
-#about h2 {
-  margin-top: 25px;
-}
 
 
 p {
@@ -82,12 +94,31 @@ margin-left: 20px;
   margin-left: 60px;
 }
 
-#portfolio h2, #portfolio p {
+#portfolio {
+padding-right: 20px;
+}
+
+
+#portfolio h2, #portfolio h4, #portfolio p {
  color: black; 
 }
+
 
 #portfolio h3 {
   color: black;
   text-align: center;
 }
 
+
+#portfolio h5 {
+  color: black;
+  font-weight: bolder;
+}
+
+.copy {
+  font-style: italic;
+}
+
+.tech {
+  //font-style: normal;
+}
