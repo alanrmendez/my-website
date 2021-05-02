@@ -9,7 +9,7 @@ a.navbar-brand {
 }
 
 
-div.navbar-nav {
+#header {
     position: absolute; 
     right: 10px;
 }
@@ -78,7 +78,7 @@ h4 {
   background: rgb(55, 49, 139);
 }
 
-#about a {
+#about a, #footer a {
   //text-decoration: none;
   color: rgb(247, 251, 255);
 }
@@ -147,5 +147,62 @@ background: rgb(247, 251, 255);
 
 #contact {
 background: rgb(76, 137, 139);
-
+//background: linear-gradient( rgb(247, 251, 255), rgb(76, 137, 139));
+padding-bottom: 90px;
 }
+
+
+#contact a {
+  color: rgb(247, 251, 255);
+}
+
+
+#contact a:hover {
+  color: rgb(55, 49, 139);
+}
+
+
+#contact-info {
+  margin-top: 20px;
+}
+
+
+#contact-info div.col {
+  text-align: center;
+}
+
+
+#footer {
+  position: relative;
+  top: 50px;
+  padding-top: 25px;
+  block-size: 150px;
+  background: #212529;
+}
+
+
+#footer .container-fluid {
+  justify-content: center;
+}
+
+#footer a:hover {
+  color: #6c757d;
+}
+.icon {
+  //text-align: center;
+  //display: inline;
+}
+
+
+.center {
+//text-align: center;
+//width: 100%;
+padding: 20px;
+}
+
+
+#icons span {
+  display: inline;
+  float: none;
+}
+*/
