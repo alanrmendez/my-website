@@ -78,8 +78,13 @@ h4 {
   background: rgb(55, 49, 139);
 }
 
-a {
-  text-decoration: none;
+#about a {
+  //text-decoration: none;
+  color: rgb(247, 251, 255);
+}
+
+#about a:hover {
+  color: rgb(76, 137, 139);
 }
 
 p {
@@ -120,6 +125,16 @@ background: rgb(247, 251, 255);
   color:#212529; 
   font-weight: bolder;
 }
+
+#portfolio a {
+  color: #212529;
+}
+
+
+#portfolio a:hover {
+  color: rgb(55, 49, 139);
+}
+
 
 .copy {
   font-style: italic;
