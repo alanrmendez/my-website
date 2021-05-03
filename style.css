@@ -86,14 +86,16 @@ h4 {
 
 
 #about {
-  //position: relative;
-  //top: 50px;
+  position: relative;
+  top: 50px;
+  padding-bottom: 50px;
   background: rgb(55, 49, 139);
 }
 
-#about a, #footer a {
+#about a {
   //text-decoration: none;
   color: rgb(247, 251, 255);
+  font-size: 18px;
 }
 
 #about a:hover {
@@ -113,7 +115,7 @@ text-align: justify;
 
 #skills {
   margin-top: 3px;
-  margin-left: 60px;
+  //margin-left: 60px;
 }
 
 #portfolio {
@@ -182,6 +184,7 @@ padding-bottom: 90px;
 
 #contact-info div.col {
   text-align: center;
+  padding: 10px 0;
 }
 
 
@@ -197,6 +200,13 @@ padding-bottom: 90px;
 #footer .container-fluid {
   justify-content: center;
 }
+
+
+#footer a {
+  //text-decoration: none;
+  color: rgb(247, 251, 255);
+}
+
 
 #footer a:hover {
   color: #6c757d;
