@@ -8,12 +8,14 @@ a.navbar-brand {
     font-weight: 700;
 }
 
-
+/*
 #header {
-    position: absolute; 
-    right: 10px;
+    //position: absolute; 
+    //right: 10px;
+    display: flex;
+    justify-content: flex-end;
 }
-
+*/
 
 div {
 color: rgb(247, 251, 255);
@@ -32,13 +34,16 @@ text-shadow: 1px 1px 2px black;
 
 img {
   //border-radius: 50%;
-  height: 353px;
-  width: 353px;
+  //height: 353px;
+  //width: 353px;
   margin-top: 25px;
-  object-fit: cover;
-  object-position: 100% 0%;
+  margin-left: auto;
+  margin-right: auto;
+  //object-fit: cover;
+  //object-position: 100% 0%;
   display: block;
   max-width: 100%;
+  width: 353px;
   height: auto;
 }
 
@@ -61,6 +66,11 @@ h3 {
 
 h4 {
   text-decoration: underline;
+}
+
+
+.title {
+  padding: 0 20px;
 }
 
 
@@ -97,7 +107,7 @@ text-align: justify;
 
 
 #bio {
-margin-left: 20px;
+//margin-left: 20px;
 }
 
 

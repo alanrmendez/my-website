@@ -26,7 +26,7 @@
 <body>
 
 <!--Navbar-->
-		<nav class="navbar fixed-top navbar-dark bg-dark navbar-expand-sm"      
+		<nav class="navbar fixed-top navbar-dark bg-dark navbar-expand-sm"     
         role="navigation">
 			<div class="container-fluid">
 				<a class="navbar-brand" href="#">Alan Mendez</a>
@@ -34,7 +34,7 @@
                     aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarContent">
+        <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
           <div class="navbar-nav" id="header">
             <a class="nav-link" aria-current="page" href="#about">ABOUT</a>
             <a class="nav-link" href="#portfolio">PORTFOLIO</a>
@@ -55,11 +55,14 @@
         <div class="row" id="home">
             <div class="col">
                 <div class="text-center">
-                    <img src="https://alanrmendez.github.io/website/img/AlanMendezHeadshot.jpg"
+                    <img src="https://alanrmendez.github.io/website/img/AlanMendezHeadshot2.jpg"
                         class="rounded-circle" alt="Alan Mendez headshot">
                     <!--headshot-->
                     <h1>Alan Mendez</h1>
-                    <h2>Software Engineer | Data Scientist</h2>
+                    <div class="d-flex flex-wrap justify-content-center">
+                    <div class="title"><h2>Software Engineer</h2></div>
+                    <div class="title"><h2>Data Scientist</h2></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -213,7 +216,7 @@
 
           <div class="row">
             <div class="col d-flex justify-content-center">
-              <span> &copy; 2021 Alan Mendez</span>
+              <span><small>&copy; 2021 Alan Mendez</small></span>
               </div> 
           </div>
 
@@ -226,6 +229,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
         crossorigin="anonymous"></script>
+
+      
 </body>
 
 </html>
