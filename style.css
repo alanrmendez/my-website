@@ -4,7 +4,7 @@
 
 
 a.navbar-brand {
-    font-size: 50px;
+    font-size: 37px;
     font-weight: 700;
 }
 
@@ -22,7 +22,7 @@ color: rgb(247, 251, 255);
 
 #home {
 position: relative;
-top: 100px;
+top: 80px;
 padding-bottom: 120px;
 //background: rgb(76, 137, 139);
 background: linear-gradient(rgb(76, 137, 139), rgb(0, 0, 0));
@@ -37,6 +37,9 @@ img {
   margin-top: 25px;
   object-fit: cover;
   object-position: 100% 0%;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 
