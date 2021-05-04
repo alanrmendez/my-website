@@ -12,20 +12,21 @@
 
 	<!--Nunito Sans Font-->
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
 	<!--CSS Stylesheet-->
 	<link rel="stylesheet" href="style.css">
+
+  <!--Font Awesome Kit-->
+  <script src="https://kit.fontawesome.com/74da048002.js" crossorigin="anonymous"></script>
 
 	<title>Alan Mendez: Software Engineer</title>
 </head>
 
 <body>
 
-	<div class="container-fluid">
-
-		<!--Navbar-->
-		<nav class="navbar fixed-top navbar-dark bg-dark navbar-expand-sm"      
+<!--Navbar-->
+		<nav class="navbar fixed-top navbar-dark bg-dark navbar-expand-sm"     
         role="navigation">
 			<div class="container-fluid">
 				<a class="navbar-brand" href="#">Alan Mendez</a>
@@ -33,44 +34,53 @@
                     aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarContent">
-          <div class="navbar-nav">
+        <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
+          <div class="navbar-nav" id="header">
             <a class="nav-link" aria-current="page" href="#about">ABOUT</a>
             <a class="nav-link" href="#portfolio">PORTFOLIO</a>
-            <a class="nav-link" href="#">CONTACT</a>
+            <a class="nav-link" href="#contact">CONTACT</a>
+                
           </div>
+          
         </div>
       </div>
     </nav>
 
 
 
+	<div class="container-fluid">
+
+
         <!--headshot with background-->
-        <div class="row bg-secondary bg-gradient" id="home">
+        <div class="row" id="home">
             <div class="col">
                 <div class="text-center">
-                    <img src="https://alanrmendez.github.io/website/img/AlanMendezHeadshot.jpg"
+                    <img src="https://alanrmendez.github.io/website/img/AlanMendezHeadshot2.jpg"
                         class="rounded-circle" alt="Alan Mendez headshot">
                     <!--headshot-->
                     <h1>Alan Mendez</h1>
-                    <h2>Software Engineer | Data Scientist</h2>
+                    <div class="d-flex flex-wrap justify-content-center">
+                    <div class="title"><h2>Software Engineer</h2></div>
+                    <div class="title"><h2>Data Scientist</h2></div>
+                    </div>
                 </div>
             </div>
         </div>
 
 
         <!--ABOUT-->
-        <div class="row anchor" id="about">
+
+        <div class="row anchor d-flex flex-wrap justify-content-between" id="about">
           <h2>ABOUT</h2>
-          <div class="col" id="bio">
+          <div class="col-sm-6" id="bio">
             <p>
               <br>
-              Alan Mendez is a New York City-based software engineer, data scientist, and creative problem solver. Prior to his work in the tech industry, Alan spent four years working as an actor, musician, and composer, where he gained firsthand experience cultivating his skills in collaboration and product development. Alan went on to gain certification in Machine Learning by Stanford University via Coursera, exploring applications ranging from product recommendation systems to statistical modeling methods including linear regression and neural networks. Most recently, Alan was contracted as a web developer with Jen Waldman Studio: Online, where he built and implemented customized HTML and CSS blocks in a beta software built in Bootstrap. 
+              <strong>Alan Mendez</strong> is a New York City-based software engineer, data scientist, and creative problem solver. Prior to his work in the tech industry, Alan spent four years working as an actor, musician, and composer, where he gained firsthand experience cultivating his skills in collaboration and product development. Alan went on to gain certification in Machine Learning by Stanford University via Coursera, exploring applications ranging from product recommendation systems to statistical modeling methods including linear regression and neural networks. Most recently, Alan was contracted as a web developer with Jen Waldman Studio: Online, where he built and implemented customized HTML and CSS blocks in a beta software built in Bootstrap. 
               <br><br>
               In his free time, Alan enjoys reading and feeding his love of learning. His main side project includes building a mobile web app that connects New York City artists with local rehearsal studio spaces based on real-time availability data, to acquaint arts workers with often overlooked venues and connect studio spaces with additional potential customers. Alan also has extensive knowledge of French and American wines, which he enjoys with cheese of any nationality. 
             </p>
           </div>
-          <div class="col" id="skills">
+          <div class="col-sm-5" id="skills">
               <br>
               <h3>Programming Languages</h3>
               <p>Python, MATLAB, HTML, CSS, JavaScript, Swift, C++</p>
@@ -80,69 +90,149 @@
               <br>
               <h3>Version Control</h3>
               <p>Git, GitHub</p>
+              <br>
+              <h3>Machine Learning Certificate</h3>
+              <a href="https://www.coursera.org/account/accomplishments/verify/HN2ADCRSUVLU?utm_source=ln&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=course" target="_blank"> 
+                from Stanford University via Coursera
+                </a>
           </div>
+
         </div>
 
 
         <!--PORTFOLIO-->
-        <div class="row anchor justify-content-around" id="portfolio">
+        <div class="row anchor justify-content-center" id="portfolio">
           <h2>PORTFOLIO</h2>
           <div class="col">
             <!--list of software engineering projects, with descriptions-->
+            <br>
             <h3>SOFTWARE ENGINEERING</h3>
             <ul>
-              <li>
-                <p>Project 1 with description</p>
+               <li>
+                 <br>
+                  <h4>
+                    <a href="https://github.com/alanrmendez/Book-It" target="_blank">
+                      Book-It
+                    </a>
+                  </h4>
+                <p class="copy">Ever needed to find a nearby rehearsal studio space to prepare before your last-minute audition? Find yourself with some downtime between open calls, and want to see which venues have what you're really looking for? Or need to find another place to teach your music lesson on short notice? Book-It connects artists with local rehearsal studios in the New York City area, providing users with real-time room availability and pricing so that they can spend less time stressing, and more time focusing on what really matters. Find it. Book it. 
+                  <br><br>
+                Wireframed in Swift, the next steps of this project are to build out and maintain a database to manage client-user information and implement a recommendation system to help users find spaces that meet their location and budget needs.
+                </p>
+                <h5>Technologies Used:</h5>
+                <p class="tech">Swift, React</p>
+                <br>
               </li>
               <li>
-                <p>Project 2 with description</p>
+                <h4><a href="https://github.com/alanrmendez/Whats-the-Weather-JSON" target="_blank">
+                What's the Weather?</a></h4>
+                <p class="copy">A simple weather app that reports the current weather, utilizing JSON data format and a weather API.</p>
+                <h5>Technologies Used:</h5>
+                <p class="tech">Swift</p>
+                <br>
+                <br>
               </li>
               <li>
-                <p>Project 3 with description</p>
-              </li>
-              <li>
-                <p>Project 4 with description</p>
+                <h4><a href="https://github.com/alanrmendez/26th-birthday-party-list" target="_blank">
+                Birthday Party Guest List</a></h4>
+                <p class="copy">Program that maintains a guest list for a birthday party. Demonstrates maintainence of data for a back-end program.</p>
+                <h5>Technologies Used:</h5>
+                <p class="tech">Python</p>
+                <br>
               </li>
             </ul>
           </div>
 
           <div class="col">
             <!--list of data science projects, with descriptions-->
+            <br>
             <h3>DATA SCIENCE</h3>
             <ul>
               <li>
-                <p>Project 1 with description</p>
+                <br>
+                <h4><a href="https://github.com/alanrmendez/machine-learning" target="_blank">
+                Machine Learning</a></h4>
+                <p class="copy">A compilation of ML projects demonstrating implementations of linear regression, logistic regression, neural networks, K-means clustering, and more. Applications range from predictive house pricing to user recommendation systems to online learning for websites with access to big data.</p>
+                <h5>Technologies Used:</h5>
+                <p class="tech">MATLAB</p>
+                <br>
               </li>
               <li>
-                <p>Project 2 with description</p>
-              </li>
-              <li>
-                <p>Project 3 with description</p>
-              </li>
-              <li>
-                <p>Project 4 with description</p>
+                <h4><a href="https://github.com/alanrmendez/raspberry-pi-timing-resolution" target="_blank">
+                Raspberry Pi Timing Resolution</a></h4>
+                <p class="copy">In the world of nuclear and particle physics, the muon is a crucial subatomic particle. But it doesn't stay around very long--it's average lifetime is about 2 microseconds. How can such an important yet elusive particle be studied in a cost-effective manner? This project presents the research conducted as part of a data-taking team of physicists to test the timing resolution of a Raspberry Pi and determine its suitability as an operating system for a low-cost muon detector. </p>
+                <h5>Technologies Used:</h5>
+                <p class="tech">C++</p>
+                <br>
               </li>
             </ul>
           </div>
       </div>
 
         <!--CONTACT-->
-        <div class="row">
+        <div class="row anchor justify-content-center" id="contact">
+          <h2>CONTACT</h2>
+          <div class="row" id="contact-info">
             <div class="col">
-
+              Email: 
+                <a href="mailto:alan.mendez07@gmail.com" target="_blank">
+                  alan.mendez07@gmail.com
+                </a>
             </div>
+            <div class="col">
+              LinkedIn:
+              <a href="https://www.linkedin.com/in/alan-mendez-481b0a78/" target="_blank">
+                  linkedin.com/in/alan-mendez-481b0a78
+                </a>
+            </div>
+            <div class="col">
+              GitHub:
+              <a href="https://github.com/alanrmendez" target="_blank">
+                  github.com/alanrmendez
+                </a>
+            </div>
+          </div>  
         </div>
-
-
-        <!--FOOTER, including ABOUT, PORTFOLIO, and CONTACT links, with LinkedIn and GitHub icons below. Below icons, (c) 2021 by Alan Mendez-->
 
     </div>
 
 
 
+<!--FOOTER, including ABOUT, PORTFOLIO, and CONTACT links, with LinkedIn and GitHub icons below. Below icons, (c) 2021 by Alan Mendez-->
+			    <div class="container-fluid" id="footer">
+
+            <!--Icons-->
+            <div class="row">
+              <div class="col d-flex justify-content-center icon">
+                <a href="mailto:alan.mendez07@gmail.com" target="_blank">
+                  <span class="far fa-envelope fa-2x center"></span>
+                </a>
+                <a href="https://www.linkedin.com/in/alan-mendez-481b0a78/" target="_blank">
+                  <span class="fab fa-linkedin fa-2x center"></span>
+                </a>
+                <a href="https://github.com/alanrmendez" target="_blank">
+                  <span class="fab fa-github-square fa-2x center"></span>
+                </a>
+              </div>
+            </div>
+
+          <div class="row">
+            <div class="col d-flex justify-content-center">
+              <span><small>&copy; 2021 Alan Mendez</small></span>
+              </div> 
+          </div>
+
+        <!--</div>-->
+
+        
+      </div>
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
         crossorigin="anonymous"></script>
+
+      
 </body>
 
 </html>

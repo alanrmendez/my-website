@@ -4,16 +4,18 @@
 
 
 a.navbar-brand {
-    font-size: 50px;
+    font-size: 37px;
     font-weight: 700;
 }
 
-
-div.navbar-nav {
-    position: absolute; 
-    right: 10px;
+/*
+#header {
+    //position: absolute; 
+    //right: 10px;
+    display: flex;
+    justify-content: flex-end;
 }
-
+*/
 
 div {
 color: rgb(247, 251, 255);
@@ -22,19 +24,27 @@ color: rgb(247, 251, 255);
 
 #home {
 position: relative;
-top: 100px;
+top: 80px;
 padding-bottom: 120px;
+//background: rgb(76, 137, 139);
+background: linear-gradient(rgb(76, 137, 139), rgb(0, 0, 0));
 text-shadow: 1px 1px 2px black;
 }
 
 
 img {
   //border-radius: 50%;
-  height: 353px;
-  width: 353px;
+  //height: 353px;
+  //width: 353px;
   margin-top: 25px;
-  object-fit: cover;
-  object-position: 100% 0%;
+  margin-left: auto;
+  margin-right: auto;
+  //object-fit: cover;
+  //object-position: 100% 0%;
+  display: block;
+  max-width: 100%;
+  width: 353px;
+  height: auto;
 }
 
 
@@ -49,22 +59,48 @@ h2 {
 }
 
 
+h3 {
+  font-weight: 700;
+}
+
+
+h4 {
+  text-decoration: underline;
+}
+
+
+.title {
+  padding: 0 20px;
+}
+
+
 .anchor {
+  position: relative;
   padding-top: 90px;
+  top: 50px;
+}
+
+.anchor h2 {
+  margin-top: 25px;
 }
 
 
 #about {
   position: relative;
   top: 50px;
+  padding-bottom: 50px;
   background: rgb(55, 49, 139);
 }
 
-
-#about h2 {
-  margin-top: 25px;
+#about a {
+  //text-decoration: none;
+  color: rgb(247, 251, 255);
+  font-size: 18px;
 }
 
+#about a:hover {
+  color: rgb(76, 137, 139);
+}
 
 p {
 font-size: 18px;
@@ -73,20 +109,123 @@ text-align: justify;
 
 
 #bio {
-margin-left: 20px;
+//margin-left: 20px;
 }
 
 
 #skills {
   margin-top: 3px;
-  margin-left: 60px;
+  //margin-left: 60px;
 }
 
-#portfolio h2, #portfolio p {
- color: black; 
+#portfolio {
+padding-right: 20px;
+background: rgb(247, 251, 255);
+
 }
+
+
+#portfolio h2, #portfolio h4, #portfolio p {
+ color:#212529; 
+}
+
 
 #portfolio h3 {
-  color: black;
+  color:#212529; 
   text-align: center;
 }
+
+
+#portfolio h5 {
+  color:#212529; 
+  font-weight: bolder;
+}
+
+#portfolio a {
+  color: #212529;
+}
+
+
+#portfolio a:hover {
+  color: rgb(55, 49, 139);
+}
+
+
+.copy {
+  font-style: italic;
+}
+
+.tech {
+  //font-style: normal;
+}
+
+
+#contact {
+background: rgb(76, 137, 139);
+//background: linear-gradient( rgb(247, 251, 255), rgb(76, 137, 139));
+padding-bottom: 90px;
+}
+
+
+#contact a {
+  color: rgb(247, 251, 255);
+}
+
+
+#contact a:hover {
+  color: rgb(55, 49, 139);
+}
+
+
+#contact-info {
+  margin-top: 20px;
+}
+
+
+#contact-info div.col {
+  text-align: center;
+  padding: 10px 0;
+}
+
+
+#footer {
+  position: relative;
+  top: 50px;
+  padding-top: 25px;
+  block-size: 150px;
+  background: #212529;
+}
+
+
+#footer .container-fluid {
+  justify-content: center;
+}
+
+
+#footer a {
+  //text-decoration: none;
+  color: rgb(247, 251, 255);
+}
+
+
+#footer a:hover {
+  color: #6c757d;
+}
+.icon {
+  //text-align: center;
+  //display: inline;
+}
+
+
+.center {
+//text-align: center;
+//width: 100%;
+padding: 20px;
+}
+
+
+#icons span {
+  display: inline;
+  float: none;
+}
+*/
